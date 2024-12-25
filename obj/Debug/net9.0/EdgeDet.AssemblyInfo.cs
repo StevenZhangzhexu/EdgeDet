@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EdgeDet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+463cd720a44af8cefcefd27fd27be6189eb5dc16")]
 [assembly: System.Reflection.AssemblyProductAttribute("EdgeDet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EdgeDet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

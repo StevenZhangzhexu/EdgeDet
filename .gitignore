@@ -1,0 +1,34 @@
+# Compiled output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Visual Studio settings
+.vscode/
+.vs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+packages/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
