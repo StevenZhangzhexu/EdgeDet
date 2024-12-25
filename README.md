@@ -1,4 +1,9 @@
 # Edge Detection in C#
+Below is an example of the edge detection process:
+
+| Input Image | Output Image |
+|----------------------------------|----------------------------------|
+| ![Input Image](image/sample.jpg) | ![Output Image](docs/output.jpg) |
 
 ## Overview
 EdgeDet is a simple C# application for performing edge detection on grayscale images. It supports both Sobel and Prewitt operators for edge detection.
@@ -35,6 +40,7 @@ EdgeDet is a simple C# application for performing edge detection on grayscale im
    - Specify the image file path. (Optional)
    - Select the edge detection operator (default: Sobel).
    - Provide the output file path.(Optional)
+3. If the output file path is not specified, you can find the detected edges in  `image/output.jpg`
 
 ## Testing the Application
 1. Navigate to the `EdgeDet.Tests` folder.
