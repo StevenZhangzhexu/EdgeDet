@@ -16,7 +16,7 @@ namespace EdgeDet.Utilities
             {
                 for (int x = 0; x < width; x++)
                 {
-                    // Clamp values to byte range (0–255) before assigning
+                    // Clamp values to byte range (0–255)
                     byte clampedValue = (byte)Math.Clamp(grayscaleData[x, y], 0, 255);
                     image[x, y] = new L8(clampedValue);
                 }

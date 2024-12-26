@@ -63,6 +63,7 @@ EdgeDet/
 │   ├── sample.jpg
 │   └── ...
 │   └── output.jpg
+├── Tests
 ├── EdgeDet.csproj
 ├── EdgeDet.sln
 ├── bin/ (excluded from repository)
