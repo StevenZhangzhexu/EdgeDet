@@ -43,8 +43,7 @@ EdgeDet is a simple C# application for performing edge detection on grayscale im
 3. If the output file path is not specified, you can find the detected edges in  `image/output.jpg`
 
 ## Testing the Application
-1. Navigate to the `EdgeDet.Tests` folder.
-2. Run the tests:
+Run the tests:
    ```bash
    dotnet test
    ```
@@ -63,7 +62,7 @@ EdgeDet/
 │   ├── sample.jpg
 │   └── ...
 │   └── output.jpg
-├── Tests
+├── EdgeDet.Tests
 ├── EdgeDet.csproj
 ├── EdgeDet.sln
 ├── bin/ (excluded from repository)
