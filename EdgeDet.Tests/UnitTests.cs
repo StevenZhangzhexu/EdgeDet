@@ -50,7 +50,12 @@ namespace EdgeDet.Tests
             int[,] result = sobelOperator.Apply(sampleImage);
 
             // Assert
-            Assert.That(result, Is.Not.Null);
+            int[,] expected = {
+                { 0, 0, 0 },
+                { 0, 0, 0 },
+                { 0, 0, 0 }
+            };
+            Assert.That(result, Is.EqualTo(expected));
             Assert.That(result.GetLength(0), Is.EqualTo(sampleImage.GetLength(0)));
             Assert.That(result.GetLength(1), Is.EqualTo(sampleImage.GetLength(1)));
         }
@@ -70,7 +75,12 @@ namespace EdgeDet.Tests
             int[,] result = prewittOperator.Apply(sampleImage);
 
             // Assert
-            Assert.That(result, Is.Not.Null);
+            int[,] expected = {
+                { 0, 0, 0 },
+                { 0, 0, 0 },
+                { 0, 0, 0 }
+            };
+            Assert.That(result, Is.EqualTo(expected));
             Assert.That(result.GetLength(0), Is.EqualTo(sampleImage.GetLength(0)));
             Assert.That(result.GetLength(1), Is.EqualTo(sampleImage.GetLength(1)));
         }
