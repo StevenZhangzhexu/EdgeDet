@@ -8,8 +8,6 @@ namespace EdgeDet.Views
     /// </summary>
     public class ConsoleView
     {
-
-        //private static readonly string baseDirectory = AppDomain.CurrentDomain.BaseDirectory; // This gets the current running directory (e.g., bin/Debug/net9.0)
         private static readonly string DefaultInputPath = Path.Combine("image","sample.jpg");
         private static readonly string DefaultOutputPath = Path.Combine("image","output.jpg");
 
